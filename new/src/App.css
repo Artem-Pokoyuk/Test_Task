@@ -1,0 +1,116 @@
+body{
+    font-family: Arial;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(187, 210, 250);
+}
+
+.main {
+    height: 55vh;
+    background: rgb(30, 133, 110);
+    box-shadow: 0px 2px 80px -20px rgba(0,0,0,0.5);
+    width: 60%;
+    margin: 0 auto;
+}
+
+.info{
+    height: 55vh;
+    background: url("img/image.jpg") center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: #a39b9b;
+    border: 2px solid #1f1f1f;
+    background-size: cover;
+    display: flex;
+    padding-top: 140px;
+    padding-left: 70px;
+    text-align: center;
+    color: #fff;
+}
+
+.form {
+    height: 55vh;
+    padding-top: 140px;
+    padding-left: 50px;
+    border-top: 2px solid #1f1f1f;
+    border-bottom: 2px solid #1f1f1f;
+    border-right: 2px solid #1f1f1f;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 2px black;
+    width: 50%;
+    padding-bottom: 4px;
+    color: #fff;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    outline: none
+  }
+
+  input::-webkit-input-placeholder {
+    color: #fff;
+  }
+       /* */
+  button {
+    border: 2px solid #103a65;
+    border-bottom: 4px solid #103a65;
+    padding: 8px 20px;
+    margin: 0 2px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #235d9c;
+    color: #fff;
+    outline: none;
+  }
+  
+  button:hover {
+    border-bottom: 2px solid #103a65;
+    position: relative;
+    top: 2px;
+  }
+  
+  button:active {
+    border-bottom: 2px solid transparent;
+    border-color: transparent;
+    position: relative;
+    top: 2px;
+  }
+
+  .info h2 {
+  font-family: "Proba Pro";
+  font-weight: bold;
+  color: #fff;
+}
+
+.info p {
+  font-family: "Proba Pro";
+  color: #e4e4e4;
+  font-weight: lighter;
+}
+
+.infoWeath {
+  width: 60%;
+  font-size: 19px;
+  color: #fff;
+}
+
+.error {
+  color: #fff;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+
+}
+  
+ 
+
+
+
